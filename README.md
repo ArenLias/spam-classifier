@@ -26,15 +26,3 @@ python predict.py "Hey, how are you?"
 ## 🛠️ Tech Stack 
 Python 3.10+, pandas, NumPy, scikit-learn, matplotlib, seaborn
 ML Pipeline: EDA → TF-IDF → Train/Test Split → Model Comparison → Deployment
-
-## File Structure
-spam-classifier/
-├── data/                    # spam.csv (download from Kaggle)
-├── notebooks/
-│   └── 01_eda_and_preprocessing.ipynb  # Full analysis + training
-├── models/
-│   └── spam_classifier.pkl           # Production model
-├── predict.py                       # CLI prediction tool
-├── requirements.txt
-├── README.md
-└── .gitignore
